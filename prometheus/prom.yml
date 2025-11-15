@@ -7,6 +7,6 @@ scrape_configs:
       - targets: ['localhost:9090']
 
   - job_name: 'api'
-    scheme: http
+    scheme: https
     static_configs:
-      - targets: ['analog.railway.internal']
+      - targets: ['api.analog.money:443']
