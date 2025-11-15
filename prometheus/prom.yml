@@ -9,4 +9,4 @@ scrape_configs:
   - job_name: 'api'
     scheme: http
     static_configs:
-      - targets: ['analog.railway.internal:80']
+      - targets: ['analog']
